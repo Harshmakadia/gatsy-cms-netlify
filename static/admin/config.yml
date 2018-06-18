@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: Harshmakadia/gatsy-cms-netlify #replace with your username/repo
+
+media_folder: static/assets
+
+collections:
+#  - name: blog
+#    label: Blog
+#    folder: blog
+#    create: true
+#    fields:
+#      - { name: path, label: Path }
+#      - { name: date, label: Date, widget: date }
+#      - { name: title, label: Title }
+#      - { name: country, label: Country }
+#      - { name: body, label: Body, widget: markdown }
+  - name: job
+    label: Job
+    folder: job
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: country, label: Country }
+      - { name: body, label: Body, widget: markdown }
